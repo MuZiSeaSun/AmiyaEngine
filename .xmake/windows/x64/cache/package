@@ -1,0 +1,15 @@
+{
+    sdl2 = {
+        links = "SDL2",
+        linkdirs = [[E:\AmiyaEngine\thirdparty\sdl\lib]],
+        sysincludedirs = [[E:\AmiyaEngine\thirdparty\sdl\include\SDL2]],
+        __requirestr = "sdl2",
+        envs = {
+            PATH = {
+                [[E:\AmiyaEngine\thirdparty\sdl\bin]]
+            }
+        },
+        installdir = [[E:\AmiyaEngine\thirdparty\sdl]],
+        __enabled = true
+    }
+}

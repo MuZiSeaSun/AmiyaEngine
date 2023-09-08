@@ -1,0 +1,64 @@
+{
+    find_program_gcc_arch_x64_plat_windows_checktoolcxx = {
+        gcc = "gcc"
+    },
+    find_programver = {
+        gcc = "13.1.0"
+    },
+    ["detect.tools.gcc.has_cflags"] = {
+        ["gcc_13.1.0"] = {
+            ["--help"] = true,
+            ["-dumpmachine"] = true,
+            ["-print-multi-os-directory"] = true,
+            ["-v"] = true,
+            ["-x"] = true,
+            ["--param"] = true,
+            ["-o"] = true,
+            ["-S"] = true,
+            ["-dumpspecs"] = true,
+            ["-shared"] = true,
+            ["-c"] = true,
+            ["-print-multiarch"] = true,
+            ["--version"] = true,
+            ["-print-libgcc-file-name"] = true,
+            ["-pipe"] = true,
+            ["-pie"] = true,
+            ["-B"] = true,
+            ["-print-search-dirs"] = true,
+            ["-dumpversion"] = true,
+            ["-Xassembler"] = true,
+            ["-E"] = true,
+            ["-Xpreprocessor"] = true,
+            ["-print-multi-directory"] = true,
+            ["-Xlinker"] = true,
+            ["-print-sysroot-headers-suffix"] = true,
+            ["-save-temps"] = true,
+            ["-pass-exit-codes"] = true,
+            ["-no-canonical-prefixes"] = true,
+            ["-print-sysroot"] = true,
+            ["-time"] = true,
+            ["--target-help"] = true,
+            ["-print-multi-lib"] = true
+        }
+    },
+    find_program_gcc_arch_x64_plat_windows_checktoolld = {
+        ["g++"] = "g++"
+    },
+    find_program = {
+        ["7z"] = [[C:\Users\admin\xmake\winenv\bin\7z]],
+        gzip = false,
+        unzip = false,
+        git = "git",
+        gcc = "gcc"
+    },
+    ["lib.detect.has_flags"] = {
+        ["windows_x64_gcc_13.1.0_cxx__-m64_-O3"] = true,
+        ["windows_x64_gcc_13.1.0_cxx_cxflags_-m64_-MMD -MF"] = true,
+        ["windows_x64_gcc_13.1.0_cxx_cxflags_-m64_-DNDEBUG"] = true,
+        ["windows_x64_gcc_13.1.0_cxx_cxflags_-m64_-fvisibility-inlines-hidden"] = true,
+        ["windows_x64_gcc_13.1.0_cxx_cxflags_-m64_-fdiagnostics-color=always"] = true
+    },
+    find_program_gcc_arch_x64_plat_windows_checktoolcc = {
+        gcc = "gcc"
+    }
+}

@@ -1,0 +1,6 @@
+{
+    cmdlines = {
+        [[xmake l c:\Users\admin\.vscode\extensions\tboox.xmake-vscode-2.2.1\assets\explorer.lua]],
+        [[xmake l c:\Users\admin\.vscode\extensions\tboox.xmake-vscode-2.2.1\assets\explorer.lua]]
+    }
+}

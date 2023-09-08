@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "sdl.h": "c",
+        "stdio.h": "c",
+        "sdl_audio.h": "c",
+        "sdl_endian.h": "c",
+        "iostream": "cpp",
+        "ostream": "cpp",
+        "new": "cpp"
+    }
+}

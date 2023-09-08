@@ -1,0 +1,21 @@
+[
+{
+  "directory": "e:\\AmiyaEngine",
+  "arguments": ["gcc.exe", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-Iinclude\\croe\\view", "-Iinclude\\croe\\app", "-fexceptions", "-I", "E:\\AmiyaEngine\\thirdparty\\sdl\\include\\SDL2", "-DNDEBUG", "-o", "build\\.objs\\hello\\windows\\x64\\release\\src\\main.cpp.obj", "src\\main.cpp"],
+  "file": "src\\main.cpp"
+},
+{
+  "directory": "e:\\AmiyaEngine",
+  "arguments": ["gcc.exe", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-Iinclude\\croe\\view", "-Iinclude\\croe\\app", "-fexceptions", "-I", "E:\\AmiyaEngine\\thirdparty\\sdl\\include\\SDL2", "-DNDEBUG", "-o", "build\\.objs\\hello\\windows\\x64\\release\\src\\croe\\log\\Log.cpp.obj", "src\\croe\\log\\Log.cpp"],
+  "file": "src\\croe\\log\\Log.cpp"
+},
+{
+  "directory": "e:\\AmiyaEngine",
+  "arguments": ["gcc.exe", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-Iinclude\\croe\\view", "-Iinclude\\croe\\app", "-fexceptions", "-I", "E:\\AmiyaEngine\\thirdparty\\sdl\\include\\SDL2", "-DNDEBUG", "-o", "build\\.objs\\hello\\windows\\x64\\release\\src\\croe\\view\\Renderer.cpp.obj", "src\\croe\\view\\Renderer.cpp"],
+  "file": "src\\croe\\view\\Renderer.cpp"
+},
+{
+  "directory": "e:\\AmiyaEngine",
+  "arguments": ["gcc.exe", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-Iinclude\\croe\\view", "-Iinclude\\croe\\app", "-fexceptions", "-I", "E:\\AmiyaEngine\\thirdparty\\sdl\\include\\SDL2", "-DNDEBUG", "-o", "build\\.objs\\hello\\windows\\x64\\release\\src\\croe\\view\\Window.cpp.obj", "src\\croe\\view\\Window.cpp"],
+  "file": "src\\croe\\view\\Window.cpp"
+}]

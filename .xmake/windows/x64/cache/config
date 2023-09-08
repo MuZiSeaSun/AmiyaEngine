@@ -1,0 +1,12 @@
+{
+    mtimes = {
+        ["thirdparty\\spdlog\\xmake.lua"] = 1693981317,
+        ["thirdparty\\sdl\\xmake.lua"] = 1694081301,
+        ["thirdparty\\xmake.lua"] = 1693966449,
+        ["xmake.lua"] = 1694163822
+    },
+    options = {
+        toolchain = "gcc"
+    },
+    recheck = false
+}
